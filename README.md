@@ -5,7 +5,8 @@ but should work for any standard MIDI device.
 
 Prerequisites: Pure Data (0.54.1)
 
-Usage: [lumi lowest_MIDI_channel highest_MIDI_channel synth_patch]
+Usage from within pd: [lumi lowest_MIDI_channel highest_MIDI_channel synth_patch]
+
 Usage from the command line: 
 ```
 $pd -midiindev "2" -nogui -open lumi.pd -send ";in 24 96 cgen"
